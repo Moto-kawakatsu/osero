@@ -27,6 +27,20 @@ let ban = document.getElementById('field')
 ban_new()
 ban_init()
 
+// クリックした時に実行されるイベント
+for (let x =0; x < 8; x++) {
+for (let y = 0; y < 8; y++) {
+let select_cell = ban.rows[x].cells[y];
+select_cell.onclick = function() {
+if (ban_ar[this.parentNode.rowIndex][this.cellIndex] == 0) {
+if (check_reverse(this.parentNode.rowIndex.this.cellIndex) > 0) {
+    
+}
+}
+}
+}
+}
+
 </script>
 </body>
 </html>>
